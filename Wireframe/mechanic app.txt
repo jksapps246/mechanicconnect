@@ -1,0 +1,73 @@
+eMechanic App
+
+This app connects the customer to any available mechanic near-by and schedule maintenance on the vechicle. 
+It also allows the customer to  communicate with the mechanic and keep uptodate with maintenance.
+
+Screens: 
+
+*1 - Login Screen
+	- Login details
+	- registration text- clickable to registration screen
+	- login button - carrries you to Client Welcome Screen or Machanic Welcome Screen
+
+*2- Registration Screen - 
+	- Sign up credentials
+	- Sign-in text- clickable to login screen
+	- Register button
+
+*3 - Setup Screen - after registation
+	- setup personal or business info
+	- setup payment details to complete signup
+        - setup vehicle details
+	- skip text - clickable to welcome screen
+
+*4 - Welcome Screen - Client Side - One to One relationship
+	-Welcome message, 
+	-3 tabs
+		*Home Tab   - Any pending setup details
+			   - Available Mechanics in the area to add
+			   - Alerts(payment, chat..etc)
+
+		*Garage Tab - Show vehicle details
+			   - Add issues for vehicle maintenance
+			   - Add Car details
+			   - Send form with issues to mechanic
+ 			   - preset car services
+			   - set appointment
+			   - see info and location
+			   - see available times
+			   - chat button - clickable to chat screen (AES)
+
+		*Chat Tab   - a chat area with mechanic
+
+	Drop down menu - links to the following screens
+			- Account details
+			- Payment details
+			- Settings
+			- Contact Support
+			- Logout - link back to login screen
+
+*5 - Welcome Screen - Machanic Side - One to Many relationship
+	-Same as Client Side
+	-Garage Tab will be replace with Client Tab
+		*Client Tab - shows the clients and schedule maintenance for the day
+			   - complete button for each task
+*6 - Account Screen
+	- add/show personal Info 
+
+7 - Payment Details Screen
+	- add/show payment details
+	- keeps track of pending payments
+	- receipts for payments
+	- payment balance(for all completed services)
+	- money received(Mechanic Side)
+
+*8 - Setting Screen
+	- day/night theme
+	- change password
+	- delete account
+
+
+*9 - Contact Support screen
+	- form to send off email to support team
+
